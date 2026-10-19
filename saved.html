@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>收藏频道</title>
+  <link rel="stylesheet" href="saved.css">
+</head>
+<body>
+  <header class="topbar"><div class="brand"><img class="brand-icon" src="assets/icon-128.png" alt=""><span>收藏频道</span></div><a href="https://www.youtube.com" target="_blank" rel="noopener">返回 YouTube ↗</a></header>
+  <main>
+    <section class="heading"><div><p class="eyebrow">CHANNEL LIBRARY</p><h1>收藏的频道</h1><p id="summary">管理你保存的频道和分类</p></div><div class="header-actions"><button id="backup-export" type="button">导出备份</button><button id="backup-import" type="button">导入备份</button><input id="backup-file" type="file" accept="application/json,.json" hidden><button id="new-category" type="button">＋ 新建分类</button></div></section>
+    <p class="backup-note">卸载扩展前先导出备份；重新安装后可导入 JSON 恢复收藏。</p>
+    <nav id="category-tabs" aria-label="频道分类"></nav>
+    <label class="search-box"><span aria-hidden="true">⌕</span><input id="channel-search" type="search" placeholder="搜索频道名称或链接" autocomplete="off"></label>
+    <section id="channel-list" aria-live="polite"></section>
+    <div id="toast" role="status" aria-live="polite"></div>
+  </main>
+  <script src="saved.js"></script>
+</body>
+</html>

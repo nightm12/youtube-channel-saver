@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>收藏的频道</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <img class="popup-logo" src="assets/icon-128.png" alt="">
+      <div><h1>收藏的频道</h1><p id="count">正在读取…</p></div>
+    </div>
+    <div class="header-actions">
+      <a id="open-library" href="saved.html" target="_blank">完整页面 <span aria-hidden="true">↗</span></a>
+      <button id="theme-toggle" type="button" aria-label="切换主题" title="切换主题"></button>
+      <button id="clear" type="button" title="清空收藏" aria-label="清空收藏">清空</button>
+    </div>
+  </header>
+  <label class="search-wrap"><span class="search-icon" aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜索频道名称或链接" autocomplete="off"><kbd>Ctrl K</kbd></label>
+  <main id="channels" aria-live="polite"></main>
+  <footer><span>频道保存在此 Chrome 配置中</span><a href="saved.html" target="_blank">备份与分类设置</a></footer>
+  <script src="popup.js"></script>
+</body>
+</html>
