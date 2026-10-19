@@ -18,7 +18,7 @@
 
 点击“加载已解压的扩展程序”，选择解压后的 `youtube-channel-saver` 文件夹。选中的文件夹中应能直接看到 `manifest.json`。
 
-![选择扩展目录](docs/tutorial/03-select-folder.png)
+![选择扩展目录](docs/tutorial/03-select-folder-v2.png)
 
 ## 4. 开始使用
 

@@ -14,7 +14,7 @@
 4. 点击“加载已解压的扩展程序”。
 5. 选择解压出来的 `youtube-channel-saver` 文件夹，也就是能直接看到 `manifest.json` 的那一层，然后点击“选择文件夹”。
 
-   ![选择扩展目录](docs/tutorial/03-select-folder.png)
+   ![选择扩展目录](docs/tutorial/03-select-folder-v2.png)
 
 6. 打开或刷新 YouTube 频道页。扩展会尝试在频道的“加入”或订阅按钮附近显示“收藏频道”。
 7. 点击扩展工具栏图标可查看收藏列表；“完整页面”可打开分类管理和备份页面。
