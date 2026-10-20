@@ -12,6 +12,9 @@
 body{background:var(--bg);color:var(--ink);font:15px/1.6 "PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;padding:20px 14px 32px}
 main{max-width:780px;margin:0 auto}
 h1{font-size:22px;margin:0 0 4px}.sub{color:var(--mute);margin:0 0 16px}
+.video-box{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px;margin:16px 0 22px}
+.video-box h2{font-size:16px;margin:0 0 10px}
+.video-box video{display:block;width:100%;height:auto;max-height:70vh;background:#000;border-radius:8px}
 #stage{position:relative;background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;height:410px}
 .bar{display:flex;align-items:center;gap:8px;background:var(--chrome);padding:8px 10px;border-bottom:1px solid var(--line)}
 .dots{display:flex;gap:5px}.dots i{width:10px;height:10px;border-radius:50%;background:var(--mute);opacity:.5}
@@ -85,6 +88,15 @@ code{background:var(--chrome);padding:1px 5px;border-radius:4px;font-size:12px}
 <main>
 <h1>从文件安装浏览器扩展</h1>
 <p class="sub">不经过应用商店，直接加载本地文件夹（以 Chrome / Edge 为例）</p>
+
+<section class="video-box" id="video" aria-label="视频安装教程">
+  <h2>视频教程</h2>
+  <video controls playsinline preload="metadata" poster="tutorial/03-select-folder-v2.png">
+    <source src="assets/load-unpacked-extension-smooth.mp4" type="video/mp4">
+    您的浏览器不支持 HTML5 视频播放。
+    <a href="assets/load-unpacked-extension-smooth.mp4">下载视频教程</a>
+  </video>
+</section>
 
 <div id="stage" aria-label="安装过程动画">
   <div class="bar">
