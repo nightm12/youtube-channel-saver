@@ -2,7 +2,7 @@
 
 按下面步骤把扩展加载到 Chrome。完成后，它会在 YouTube 频道页提供收藏按钮，并可在扩展弹窗或收藏库中管理频道。
 
-[观看视频版安装教程](https://nightm12.github.io/youtube-channel-saver/#video) · [打开交互式安装动画](https://nightm12.github.io/youtube-channel-saver/)
+[打开 GitHub 中的视频安装教程](docs/assets/load-unpacked-extension-smooth.mp4)
 
 ## 1. 下载并解压
 
